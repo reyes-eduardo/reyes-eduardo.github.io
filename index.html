@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- BOOTSTRAP 4 CND -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/f159c8a973.js"></script>
+  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+		body {font-family: "Lato", sans-serif}
+		.mySlides {display: none}
+		.w3-darkblue {
+			background-color: #0A4B24;
+			color: #041136;
+		}
+		
+		.w3-ddarkblue {
+			background-color: #868707;
+			color: #041136;
+		}
+	
+	</style>
+
+	<title>Eduardo Reyes</title>
+	<script type="text/javascript">
+	
+	    $(document).ready(function() {
+            $("a[href^='#']").click(function(e) {
+               e.preventDefault();
+
+               var position = $($(this).attr("href")).offset().top;
+               $("body, html").animate({
+                   scrollTop: position
+                } /* speed */);
+            });
+            $('#aHome').click(function(e) {
+               e.preventDefault();
+               $("body, html").animate({
+                   scrollTop: 0
+                } /* speed */);
+            });
+        });
+    </script>		
+</head>
+<body>
+
+	<!-- Navbar -->
+	<div class="w3-top">
+	  <div class="w3-bar w3-darkblue w3-card">
+	    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Menu"><i class="fa fa-bars"></i></a>
+	    <a id="aHome" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+	    <a href="#research" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESEARCH</a>
+	    <a href="#teaching" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEACHING</a>
+	    <a href="#outreach-activities" class="w3-bar-item w3-button w3-padding-large w3-hide-small">OUTREACH ACTIVITIES</a>
+	    <!--<a href="#miscellaneous" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MISCELLANEOUS</a>-->
+	    <!-- <div class="w3-dropdown-hover w3-hide-small">
+	      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+	      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+	        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+	        <a href="#" class="w3-bar-item w3-button">Extras</a>
+	        <a href="#" class="w3-bar-item w3-button">Media</a>
+	      </div>
+	    </div> -->
+	    <!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+	  </div>
+	</div>
+
+	<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+	<div id="navDemo" class="w3-bar-block w3-ddarkblue w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+	  <a href="#research" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESEARCH</a>
+	  <a href="#teaching" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEACHING</a>
+	  <a href="#outreach-activities" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">OUTREACH ACTIVITIES</a>
+	<!--  <a href="#miscellaneous" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MISCELLANEOUS</a>-->
+	</div>
+
+	<!-- Page content -->
+	<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+	  <!-- The Home Section -->
+	  <div class="w3-ddarkblue" >
+	  	<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:900px" id="#home">
+			<h2 class="w3-wide">Eduardo Reyes</h2>   
+		    <!--<p class="w3-opacity"><i>Graduate Student </i></p> -->
+			<p class="w3-opacity"><i> </i></p> 
+			<div class="row">
+				<div class="col-6">
+					<p class="w3-justify" style="font-size: 17px;">I am a postdoctoral fellow at the <a href="https://www.mpim-bonn.mpg.de/" target="_blank" style="color: #234EC7">Max Planck Institute for Mathematics at Bonn</a>. </p>
+					<p class="w3-justify" style="font-size: 17px;">I am interested in geometric group theory and its interactions with low-dimensional topology, geometric topology and dynamics. I like studying hyperbolic groups and their generalizations, groups acting on CAT(0) cube complexes, and deformation spaces of isometric actions. </p>
+					<p class="w3-justify" style="font-size: 17px;">I received my PhD from the <a href="https://math.berkeley.edu/" target="_blank" style="color: #234EC7">University of California, Berkeley</a>. My advisor was <a href="https://math.berkeley.edu/~ianagol/" target="_blank" style="color: #234EC7">Ian Agol</a>. </p>
+					<p class="w3-justify" style="font-size: 17px;">Before coming to Berkeley, I received my bachelor's and master's degree from <a href="http://www.mat.uc.cl/?lang=en" target="_blank" style="color: #234EC7"> Pontificia Universidad Cat&oacute;lica de Chile</a> under the supervision of <a href="http://www.personal.psu.edu/jzd5895/" target="_blank" style="color: #234EC7">Jairo Bochi</a>. Here is my CV <a href="files/CV.pdf" target="_blank"> <i class="fas fa-file-pdf"></i></a>.
+					</p>
+					<!--<p class="w3-justify" style="font-size: 17px;">In the Spring of 2023, I am coorganizing the <a href="https://math.berkeley.edu/~chicheuk/st3ms" target="_blank" style="color: #050433">student 3-manifold seminar</a> with <a href="https://math.berkeley.edu/~chicheuk/" target="_blank" style="color: #050433">Chi Cheuk Tsang</a>.</p>-->
+				    <!--<p class="w3-justify" style="font-size: 17px; color:#87B415">I am looking for postdoc positions this Fall.</p>-->
+				</div>
+				<div class="col-6">
+					<div class="w3-center">
+						<img src="img/haba.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:68%">
+					</div>
+				</div>
+			</div>
+			<!--<div class="w3-half">
+				<img src="img/komino-cat.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+			</div>-->
+			
+			<!-- <div class="w3-third">
+				<p>Name</p>
+				<img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+			</div> -->
+			<div class="w3-row w3-padding-32"><br>
+				<!-- <div class="w3-col m6 w3-large w3-margin-bottom">
+					<i class="fa fa-map-marker" style="width:30px"></i> Berkeley, US<br>
+					<i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+					
+				</div> -->
+				<div class="w3-col m12 w3-large w3-margin-bottom ">
+					<i class="fa fa-envelope" style="width:30px"> </i> Email: eoregon + at + mpim-bonn + dot + mpg + dot + de<br>
+					<i  style="width:30px"> </i><br>
+					<i class="fa fa-map-marker" style="width:30px"></i> Max Planck Institute for Mathematics<br>
+					<i  style="width:30px"></i> Office B15 <br>
+					<i style="width:30px"></i> Vivatsgasse 7 <br>
+					<i  style="width:30px"> </i> 53111 Bonn <br>
+				</div>
+			</div>
+		  </div>
+	    </div>
+		
+	    
+	  
+
+	  <!-- The Research Section -->
+	    <!--<div class="w3-container w3-content w3-padding-64" style="max-width:900px" id="research">-->
+		<div class="w3-ddarkblue" id="teaching">
+			<div class="w3-container w3-content w3-padding-64" style="max-width:900px">
+	      <h2 class="w3-wide w3-center">RESEARCH</h2><br>
+		  <p class="w3-justify"></p>
+	      <!-- <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br> -->
+	      <ul class="w3-ul ">
+		    <ol reversed>  
+            <!--li class="w3-padding"><i 4.></i>4. Simultaneous approximation of singular values and applications <i>(working title)</i>, [work in progress <i class="far fa-lightbulb"></i>]</li-->
+			<!--<li> Title (with <a href="coauthorlink" target="_blank">Coauthor</a>). <i>In preparation.</i></li-->
+			
+			<!--<li> A linking form on the second bounded cohomology of hyperbolic groups (with <a href="https://science.psu.edu/math/people/cks6029" target="_blank">Christopher-Lloyd Simon</a>). <i>In preparation.</i></li-->
+			<!--<li> Hyperbolic structures and rigidity (with <a href="https://sites.google.com/view/mgdurham/" target="_blank">Matthew Gentry Durham</a>). <i>In preparation.</i></li-->
+			<!--<li> Metric structures on some finitely generated groups (with <a href="https://pallier.org/gabriel/" target="_blank">Gabriel Pallier</a>). <i>In preparation.</i></li-->
+			<!--<li> Ergodic optimization of ratios of Birkhoff averages and applications (with <a href="http://www.personal.psu.edu/jzd5895/" target="_blank">Jairo Bochi</a> and <a href="https://science.psu.edu/math/people/fjr11" target="_blank">Federico Rodriguez Hertz</a>). <i>In preparation.</i></li-->
+			<!--<li> Co-geodesic currents and measured wall structures on hyperbolic groups (with <a href="https://www.dmartinezgranado.com/" target="_blank">Didac Martinez-Granado</a>). <i>In preparation.</i></li-->
+			
+            <li> Large deviations with shrinking for metrics with discreteness properties (with <a href="https://sjcantrell.github.io/" target="_blank" style="color: #234EC7">Stephen Cantrell</a>). <i>In preparation.</i></li-->
+			<li> Approximating lattice actions by cubulations (with <a href="https://www.math.ucsc.edu/people/visiting.php?uid=nibrody" target="_blank" style="color: #234EC7">Nic Brody</a>). <i>In preparation.</i></li-->
+			<li> Marked length spectrum rigidity from rigidity on subsets (with <a href="https://sjcantrell.github.io/" target="_blank" style="color: #234EC7">Stephen Cantrell</a>). <i>Preprint (2023), submitted. </i>[<a href="https://arxiv.org/abs/2304.13209" target="_blank" style="color: #234EC7">arxiv</a>]</li-->
+		    <li> Manhattan geodesics and the boundary of the space of metric structures on hyperbolic groups (with <a href="https://sjcantrell.github.io/" target="_blank" style="color: #234EC7">Stephen Cantrell</a>). <i>Preprint (2022), submitted. </i>[<a href="https://arxiv.org/abs/2210.07136" target="_blank" style="color: #234EC7">arxiv</a>]
+			<li> On cubulated relatively hyperbolic groups. <i>Geom. Top.</i> <b>7</b> (2023) [<a href="https://arxiv.org/abs/2003.12702" target="_blank" style="color: #234EC7">arxiv</a>,<a href="https://msp.org/gt/2023/27-2/p03.xhtml" target="_blank" style="color: #234EC7">journal</a>]</li>
+			<li> The space of metric structures on hyperbolic groups. <i>J. Lond. Math. Soc.</i> <b>107</b> (2023) [<a href="https://arxiv.org/abs/2204.12545" target="_blank" style="color: #234EC7">arxiv</a>,<a href="https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/jlms.12703" target="_blank" style="color: #234EC7">journal</a>]</li>
+			<li> A new inequality about matrix products and a Berger-Wang formula. <i>J. &Eacute;c. polytech. Math.</i> <b>7</b> (2020) [<a href="https://arxiv.org/abs/1710.00639" target="_blank" style="color: #234EC7">arxiv</a>,<a href="https://jep.centre-mersenne.org/articles/10.5802/jep.114/" target="_blank" style="color: #234EC7">journal</a>]</li>
+			<li> The Avalanche Principle and negative curvature. <i>Math. Z.</i> <b>294</b> (2019) [<a href="https://arxiv.org/abs/1901.06574" target="_blank" style="color: #234EC7">arxiv</a>,<a href="https://link.springer.com/article/10.1007/s00209-019-02335-4" target="_blank" style="color: #234EC7">journal</a>]</li>	
+			<li> Properties of sets of isometries of Gromov hyperbolic spaces. <i>Groups Geom. Dyn.</i> <b>12</b> (2018) [<a href="https://arxiv.org/abs/1606.01575" target="_blank" style="color: #234EC7">arxiv</a>,<a href="https://ems.press/journals/ggd/articles/15672" target="_blank" style="color: #234EC7">journal</a>]</li>
+			</ol>
+		</ul>
+	    </div>
+	   
+    <!-- The Slides Section -->
+	  <div class="w3-ddarkblue" id="slides">
+	    <div class="w3-container w3-content w3-padding-64" style="max-width:900px">
+	      <h2 class="w3-wide w3-center">SOME SLIDES</h2>
+	      <!-- <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br> -->
+	      <ul class="w3-ul ">
+			<!--<li class="w3-padding"> <a href="pdflink" target="_blank"><i>Title</i></a> (some info). Event. Date. </li>-->
+
+			<li class="w3-padding"> <a href="files/Slides/JGM.pdf" target="_blank" style="color: #234EC7"><i>Grupos, topolog&iacute;a en dimensiones bajas, y curvatura no positive </i></a> (in spanish). Colloquio Las Palmeras, Universidad de Chile. June 7, 2023. </li>
+			<li class="w3-padding"> <a href="files/Slides/GTINY.pdf" target="_blank" style="color: #234EC7"><i>The space of metric structures on hyperbolic groups</i></a>. Geometric Topology in New York, Columbia. June 3, 2023. </li>
+			<li class="w3-padding"> <a href="files/Slides/PosterYGGT.pdf" target="_blank" style="color: #234EC7"><i>The space of metric structures on hyperbolic groups</i></a> (poster). Young Geometric Group Theory XI, Muenster. February 5, 2023. </li>
+            <li class="w3-padding"> <a href="files/Slides/BM.pdf" target="_blank" style="color: #234EC7"><i>Continuity of Bowen-Margulis currents for hyperbolic groups</i></a>. Workshop in Dynamical Systems and Related Topics, Penn State. November 6, 2022. </li>
+			<li class="w3-padding"> <a href="files/Slides/RH-JMM.pdf" target="_blank" style="color: #234EC7"><i>Cubulated relatively hyperbolic groups</i></a>. JMM, GGT Session. April 8, 2022. </li>
+			<li class="w3-padding"> <a href="files/Slides/BW-JMM.pdf" target="_blank" style="color: #234EC7"><i>Matrix products inequalities, the Berger-Wang identity, and non-positive curvature</i></a>. JMM, ILAS Session on Matrix Analysis and Applications. April 7, 2022. </li>
+			
+	      </ul>
+	    </div>
+	  </div>  
+	
+
+	
+	  <!-- The Teaching Section -->
+	    <!--<div class="w3-container w3-content w3-padding-64" style="max-width:900px" id="teaching">-->
+		<div class="w3-ddarkblue" id="teaching">
+			<div class="w3-container w3-content w3-padding-64" style="max-width:900px">
+	      <h2 class="w3-wide w3-center">TEACHING</h2>
+	      <!-- <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br> -->
+	      <h3 class="w3-wide w3-left">At UC Berkeley</h3><br><br>
+	      <ul class="w3-ul ">
+			<li class="w3-padding"><i class="fas fa-chalkboard-teacher" style="width:30px"></i>2023 Spring : GSI for Math 55 with James Demmel.</li>
+			<li class="w3-padding"><i class="fas fa-chalkboard-teacher" style="width:30px"></i>2022 Spring : GSI for Math 55 with Kenneth A. Ribet.</li>
+			<li class="w3-padding"><i class="fas fa-chalkboard-teacher" style="width:30px"></i>2021 Fall : GSI for Math 16A with Richard Bamler.</li>	
+			<li class="w3-padding"><i class="fas fa-chalkboard-teacher" style="width:30px"></i>2021 Spring : GSI for Math 55 with Mark Haiman.</li>	
+			<li class="w3-padding"><i class="fas fa-chalkboard-teacher" style="width:30px"></i>2020 Fall : GSI for Math 1B with Alexander Paulin.</li>	
+			<li class="w3-padding"><i class="fas fa-chalkboard-teacher" style="width:30px"></i>2020 Spring : GSI for Math 55 with Olga Holtz.</li>	
+		    <li class="w3-padding"><i class="fas fa-chalkboard-teacher" style="width:30px"></i>2019 Spring : GSI for Math 1B with Alexander Paulin.</li>	
+	        <li class="w3-padding"><i class="fas fa-chalkboard-teacher" style="width:30px"></i>2018 Fall : GSI for Math 1A with Alexander Paulin.</li>
+	      </ul>
+		  <h3 class="w3-wide w3-left">At PUC</h3><br><br>
+	      <ul class="w3-ul ">
+		    <li class="w3-padding"><i class="fas fa-chalkboard-teacher" style="width:30px"></i>Spring 2017 - Spring 2018:  Instructor for Mathematics Research Workshop. Course for talented High School students.</li>	
+	      </ul>
+	    </div>
+	  </div>  
+
+	  <!-- The Outreach Activities Section -->
+	  <div class="w3-ddarkblue">
+	  <div class="w3-container w3-content w3-padding-64" style="max-width:900px" id="outreach-activities">
+	    <h2 class="w3-wide w3-center">OUTREACH ACTIVITIES</h2>
+	    <!-- <p class="w3-opacity"><i>We love music</i></p> -->
+	    <p class="w3-justify">I've been part of the organization of the <a href="http://somachi.cl/camat2016/" target="_blank" style="color: #234EC7">Second Math Camp</a> for young students and teachers in Chile. I've also volunteered for the <a href="http://festivaldematematica.cl/" target="_blank" style="color: #234EC7">Math Festival</a> in Chile and the <a href="https://www.jrmf.org/" target="_blank" style="color: #234EC7">Julia Robinson Math Festival</a>.</p>
+		<p class="w3-justify">I've been integrant of the academic committee in charge of preparing and grading tests for the <a href="http://www.olimpiadadematematica.cl/" target="_blank" style="color: #234EC7">Chilean Mathematical Olympiad</a>, and I've trained chilean teams that participate in international mathematical olympiads (<a href="https://www.imo-official.org/?language=en" target="_blank" style="color: #234EC7">International</a>, Cono-Sur and Iberoamerican).
+	  </div>
+
+	  <!-- The Miscellaneous Section -->
+	<!--<div class="w3-black" id="miscellaneous">
+	  	<div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+		<h2 class="w3-wide">MISCELLANEOUS</h2>
+	    <!-- <p class="w3-opacity"><i>We love music</i></p>
+	    <p class="w3-justify">Besides doing mathematics, I enjoy playing music and attending concerts.</p>
+		</div>
+	</div>-->
+	  
+    <!-- Contact -->
+    <!-- <h2 class="w3-wide w3-center">MISCELLANEOUS</h2>
+		    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+		    <div class="w3-row w3-padding-32">
+		        <div class="w3-col m6 w3-large w3-margin-bottom">
+			        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+			        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+			        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+		      	</div>
+		      	<div class="w3-col m6">
+			        <form action="/action_page.php" target="_blank">
+			          	<div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+			            	<div class="w3-half">
+				              	<input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+				            </div>
+				            <div class="w3-half">
+				              	<input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+				            </div>
+			          	</div>
+			          	<input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+			          	<button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+			        </form>
+		      	</div>
+		    </div> -->
+	<!-- End Page Content -->
+	</div>
+
+	<!-- Image of location/map -->
+	<!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"> -->
+
+	<!-- Footer -->
+	<!--<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+	  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+	  <i class="fa fa-instagram w3-hover-opacity"></i>
+	  <i class="fa fa-snapchat w3-hover-opacity"></i>
+	  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+	  <i class="fa fa-twitter w3-hover-opacity"></i>
+	  <i class="fa fa-linkedin w3-hover-opacity"></i>
+	  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+	</footer>-->
+
+	<script>
+	// Automatic Slideshow - change image every 4 seconds
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  myIndex++;
+	  if (myIndex > x.length) {myIndex = 1}    
+	  x[myIndex-1].style.display = "block";  
+	  setTimeout(carousel, 4000);    
+	}
+
+	// Used to toggle the menu on small screens when clicking on the menu button
+	function myFunction() {
+	  var x = document.getElementById("navDemo");
+	  if (x.className.indexOf("w3-show") == -1) {
+	    x.className += " w3-show";
+	  } else { 
+	    x.className = x.className.replace(" w3-show", "");
+	  }
+	}
+
+	// When the user clicks anywhere outside of the modal, close it
+	var modal = document.getElementById('ticketModal');
+	window.onclick = function(event) {
+	  if (event.target == modal) {
+	    modal.style.display = "none";
+	  }
+	}
+	</script>
+</body>
+</html>
